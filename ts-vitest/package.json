@@ -1,0 +1,33 @@
+{
+  "name": "supplejs-template-ts-vitest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "lint": "tsc && eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "supplejs": "^1.2.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jest-dom": "^5.4.0",
+    "eslint-plugin-testing-library": "^6.2.2",
+    "jsdom": "^24.1.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vitest": "^1.6.0",
+    "vitest-dom": "^0.1.1"
+  }
+}
