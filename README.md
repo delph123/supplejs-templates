@@ -1,6 +1,6 @@
 # SuppleJS templates
 
-This repository holds starter templates for SuppleJS using [vite](https://vitejs.dev/).
+This repository holds starter templates for [SuppleJS](https://github.com/delph123/supplejs) using [vite](https://vitejs.dev/).
 
 ## Getting started
 
