@@ -5,8 +5,9 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
     test: {
-        setupFiles: ["src/tests/utils/vitest-setup.ts"],
+        setupFiles: ["./src/tests/vitest-setup.ts"],
         environment: "jsdom",
+        globals: true,
         coverage: {
             provider: "v8",
             include: ["src/**"],

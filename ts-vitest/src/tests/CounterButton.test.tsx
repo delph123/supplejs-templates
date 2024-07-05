@@ -1,5 +1,4 @@
-import { expect, test } from "vitest";
-import { render, screen } from "./utils";
+import { render, screen } from "supplejs-testing-library";
 import CounterButton from "../CounterButton";
 
 test("Display a counter button with value 0", () => {
