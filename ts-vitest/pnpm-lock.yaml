@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       supplejs:
-        specifier: ^1.2.1
-        version: 1.2.1
+        specifier: ^1.2.2
+        version: 1.2.2
     devDependencies:
       '@testing-library/dom':
         specifier: ^10.3.1
@@ -43,8 +43,8 @@ importers:
         specifier: ^3.3.2
         version: 3.3.2
       supplejs-testing-library:
-        specifier: ^1.0.0
-        version: 1.0.0(supplejs@1.2.1)
+        specifier: ^1.0.3
+        version: 1.0.3(supplejs@1.2.2)
       typescript:
         specifier: ^5.5.3
         version: 5.5.3
@@ -1292,13 +1292,13 @@ packages:
   strip-literal@2.1.0:
     resolution: {integrity: sha512-Op+UycaUt/8FbN/Z2TWPBLge3jWrP3xj10f3fnYxf052bKuS3EKs1ZQcVGjnEMdsNVAM+plXRdmjrZ/KgG3Skw==}
 
-  supplejs-testing-library@1.0.0:
-    resolution: {integrity: sha512-9553hQAXAKFoO1NNjwifFgqYvj52Ma6R3dmyYWIr7B+rhaYDjtTK5ugB9VMwu+B4Zb+zYVekQQOmOwWh9Zk7NQ==}
+  supplejs-testing-library@1.0.3:
+    resolution: {integrity: sha512-hPZvWCROSGfjRpWimDRNStC+t6rT5vc9SpYCZRf+fUhMp+Iqc1ejuJ9AVLiazoLkTf13DyUPiAEFVQZPZy7i5w==}
     peerDependencies:
-      supplejs: 1.2.1
+      supplejs: ^1.2.2
 
-  supplejs@1.2.1:
-    resolution: {integrity: sha512-bgnAJ8jTT78CgMbvcsZr38UtdKrsL2Xj7NPnBS7OAblDa5KKWUPPXOlijWKhB7j07oYtcda+I9dyBnQftz7O+g==}
+  supplejs@1.2.2:
+    resolution: {integrity: sha512-GPlmEinLr400T6iYWSGJQ71HyK6xHQdkfn+iplVZ4fVKvmh/AOLOeHEhooDaUFsod264KN4xsG4nzdggqy8WMQ==}
 
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
@@ -2737,12 +2737,12 @@ snapshots:
     dependencies:
       js-tokens: 9.0.0
 
-  supplejs-testing-library@1.0.0(supplejs@1.2.1):
+  supplejs-testing-library@1.0.3(supplejs@1.2.2):
     dependencies:
       '@testing-library/dom': 10.3.1
-      supplejs: 1.2.1
+      supplejs: 1.2.2
 
-  supplejs@1.2.1:
+  supplejs@1.2.2:
     dependencies:
       csstype: 3.1.3
 
